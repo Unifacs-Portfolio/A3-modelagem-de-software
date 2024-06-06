@@ -1,145 +1,252 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T03:25:15.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="QJfKAXWm1NrDp4rOYWzv" version="24.4.13" type="google">
+<mxfile host="app.diagrams.net" modified="2024-06-06T01:54:27.123Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="0v1EmtRMubGu2fasGDRh" version="24.4.13" type="google">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="uLHPd-WeLsKuOtU__SRb-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Usuario&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&amp;nbsp;- cpf: String&lt;br&gt;&lt;div&gt;&amp;nbsp;- nome: String&lt;div style=&quot;height:2px;&quot;&gt;&amp;nbsp;&lt;/div&gt;&amp;nbsp;- senha: String&lt;div&gt;&amp;nbsp;- nivel_fluencia: int&lt;/div&gt;&lt;div&gt;&amp;nbsp;- conquistas: List&amp;lt;Conquista&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- historico_atividade: List&amp;lt;Licao&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- cursos: List&amp;lt;Curso&amp;gt;&lt;br&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&amp;nbsp;+ getNome(): String&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&amp;nbsp;+ setNome(nome: String): void&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getSenha(): String&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setSenha(senha: String): void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getNivelFluencia(): int&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ setNivelFluencia(nivel: int): void&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getConquistas(): List&amp;lt;Conquista&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getHistoricoAtividade(): List&amp;lt;Licao&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ getCursos(): List&amp;lt;Curso&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;height:2px;&quot;&gt;&amp;nbsp;+ acessarCurso(curso_id: int): void&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="658" y="1299" width="217" height="297" as="geometry" />
+        <mxCell id="g0dUaNiGtpUNUDLyV6Ch-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Exercicio&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;- id: int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;- licao_id: int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;- tipo: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;- descricao: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;- alternativas: String[]&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;- resposta_usuario: int&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;- resposta_correta: int&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Exercicio(tipo: String, descricao: String, alternativas: String[], resposta_correta: int): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getTipo(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDescricao(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getAlternativas(): String[]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ marcarResposta(resposta: int): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ verResposta(): int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="594" y="1591" width="541" height="236" as="geometry" />
         </mxCell>
-        <mxCell id="iNI3QpIDEYCqbAI5z-cM-3" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;2. Descrição geral do Diagrama de classes:&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Classe “Usuário”&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Representa os usuários do aplicativo&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Atributos: nome de usuário, senha, nível de fluência, conquistas e histórico de atividades&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Métodos para realizar lições:acompanhar o progresso e&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Relacinamentos: interagir com outros usuários, conquistas e historico de atividades&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Classe “Curso”:&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Representa as trilhas oferecidos pelo Aplicativo&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Atributos: nome do curso, nível, conteúdo e requisitos&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Métodos: acessar lições específicas do curso/ trilha&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Classe “Lição”:&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Representa uma lição individual dentro de um curso&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Atributos : tributos como título, descrição, dificuldade e pontuação&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Métodos: realizar a lição e verificar respostas&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Classe “Exercício”:&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Representa os exercícios dentro de uma lição&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Atributos: tipo de exercício (Desenhar, preenchimento de lacunas, escolha múltipla etc.) e texto da pergunta&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Métodos: avaliar respostas dos usuários&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Classe “Conquista”:&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Representa as conquistas desbloqueadas pelos usuários&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Atributos: nome da conquista, descrição e pontuação&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Métodos: verificar se um usuário atingiu determinada conquista&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Classe “Gestao”:&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Representa funções administrativas do Aplicativo&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Métodos: gerenciar cursos, usuários e conteúdo&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1626" y="349" width="370" height="427" as="geometry" />
+        <mxCell id="g0dUaNiGtpUNUDLyV6Ch-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Licao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;- id: int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;- curso_id: int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;- titulo: String&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- descricao: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- dificuldade: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;pontuacao: int&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;= 0&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;- exercicios: List&amp;lt;Exercicio&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Licao(titulo: String, descricao: String, dificuldade: String, exercicios: List&amp;lt;Exercicio&amp;gt;): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getTitulo() : String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDescricao() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDificuldade() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPontuacao() : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setPontuacao(pontuacao : int) : void&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getExercicios(): List&amp;lt;Exercicio&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="594" y="1147" width="529" height="255" as="geometry" />
         </mxCell>
-        <mxCell id="uLHPd-WeLsKuOtU__SRb-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Conquista&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;- nome_da_conquista :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- descricao :&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- pontuacao :&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Int:&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+getNomeConquista(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+setNomeConquista(nome_conquista : String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+getDescricao(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+setDescricao(descricao : String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+getPontuacao(): Int&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+setPontuacao(pontuacao : int): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1146" y="1351" width="286" height="204" as="geometry" />
-        </mxCell>
-        <mxCell id="g0dUaNiGtpUNUDLyV6Ch-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Exercício&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;- desenho : String&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;- lacuna :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;String&lt;/span&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;- multipla :&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Arial; background-color: initial;&quot;&gt;String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-family: Arial;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;- fala : String&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+getDesenho(): String&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+setDesenho(desenho : String): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+getLacuna(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+setlacuna(lacuna : String): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+getMultipla(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+setMultipla(multipla&amp;nbsp;: String): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+getFala(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+setFala(fala : String): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="165" y="1337" width="208" height="237" as="geometry" />
-        </mxCell>
-        <mxCell id="g0dUaNiGtpUNUDLyV6Ch-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Licao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;- licao_id: int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;- titulo: String&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- descricao: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- dificuldade: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;pontuacao: int&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;- exercicios: List&amp;lt;Exercicio&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ realizarLicao(licao : Licao): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ verificarRespostas(licao : Licao) : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getTitulo() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setTitulo(titulo : String) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDescricao() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setDescricao(descricao : String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDificuldade() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setDificuldade(dificuldade : String) : void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPontuacao() : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setPontuacao(pontuacao : int) : void&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getExercicios(): List&amp;lt;Exercicio&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="138" y="931" width="262" height="313" as="geometry" />
-        </mxCell>
-        <mxCell id="uLHPd-WeLsKuOtU__SRb-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Curso&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- curso_id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nome_curso: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nivel_curso: int = 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- requisitos: String[]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- conteudo: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- licoes: List&amp;lt;Licao&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Curso(nome_curso: String, requisitos: String[], conteudo: String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getNomeCurso(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getNivelCurso(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setNivelCurso(nivel_curso: int): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getLicoes(): List&amp;lt;Licao&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ acessarLicao(licao_id: int): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="563" y="642" width="397" height="235" as="geometry" />
-        </mxCell>
-        <mxCell id="1rHye4AVxo-PGMUvoJVq-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;realiza&lt;/font&gt;" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uLHPd-WeLsKuOtU__SRb-10" target="g0dUaNiGtpUNUDLyV6Ch-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="638.0437017994859" y="1299.5" as="sourcePoint" />
-            <mxPoint x="252" y="1302.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1rHye4AVxo-PGMUvoJVq-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;gerencia&lt;/font&gt;" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7JnjimEteklTVl5KDzVy-1" target="uLHPd-WeLsKuOtU__SRb-15">
+        <mxCell id="1rHye4AVxo-PGMUvoJVq-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;gerencia&lt;/font&gt;" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.997;entryY=0.561;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7JnjimEteklTVl5KDzVy-1" target="uLHPd-WeLsKuOtU__SRb-15">
           <mxGeometry x="0.0112" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="317" y="696.5" as="sourcePoint" />
-            <mxPoint x="420" y="832" as="targetPoint" />
+            <mxPoint x="875" y="944.5" as="sourcePoint" />
+            <mxPoint x="978" y="1080" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1rHye4AVxo-PGMUvoJVq-15" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="872" y="1419" width="25" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1rHye4AVxo-PGMUvoJVq-16" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1104" y="1426" width="36" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="1rHye4AVxo-PGMUvoJVq-21" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="262" y="1306" width="36" height="26" as="geometry" />
+          <mxGeometry x="862" y="1569" width="36" height="26" as="geometry" />
         </mxCell>
         <mxCell id="1rHye4AVxo-PGMUvoJVq-23" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="241" y="905" width="36" height="26" as="geometry" />
+          <mxGeometry x="784" y="1119" width="36" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1rHye4AVxo-PGMUvoJVq-24" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1215" y="723" width="25" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1rHye4AVxo-PGMUvoJVq-26" value="1..&lt;span style=&quot;background-color: initial;&quot;&gt;*&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="964" y="723" width="36" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1rHye4AVxo-PGMUvoJVq-29" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g0dUaNiGtpUNUDLyV6Ch-3" target="g0dUaNiGtpUNUDLyV6Ch-10">
+        <mxCell id="1rHye4AVxo-PGMUvoJVq-29" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.516;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g0dUaNiGtpUNUDLyV6Ch-3" target="g0dUaNiGtpUNUDLyV6Ch-10">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="279" y="1064.5" as="sourcePoint" />
-            <mxPoint x="439" y="1064.5" as="targetPoint" />
+            <mxPoint x="864.5122857142854" y="1594.0000000000002" as="sourcePoint" />
+            <mxPoint x="861.0014285714286" y="1402" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1rHye4AVxo-PGMUvoJVq-30" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;desbloqueia&lt;/font&gt;" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uLHPd-WeLsKuOtU__SRb-13" target="uLHPd-WeLsKuOtU__SRb-10">
+        <mxCell id="1rHye4AVxo-PGMUvoJVq-30" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;desbloqueia&lt;/font&gt;" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-0.0019" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1614" y="1101" as="sourcePoint" />
+            <mxPoint x="1614" y="1273" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JnjimEteklTVl5KDzVy-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Administrador&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- cpf: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nome: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- email: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- senha: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp;+ Administrador(cpf: String, nome: String, email: String, senha: String): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp;+ gerenciarCurso(curso_id: int): Curso&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp;+ gerenciarUsuario(usuario_cpf: String): Usuario&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp;+ mandarMensagem(destinatario_id, conteudo: String): Conversa&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2110" y="550" width="421" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="2bIF035ZwMbnVyKAeLHf-6" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.885;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="uLHPd-WeLsKuOtU__SRb-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="182" y="1796" as="sourcePoint" />
-            <mxPoint x="232" y="1746" as="targetPoint" />
+            <mxPoint x="1490.75" y="1269" as="sourcePoint" />
+            <mxPoint x="1228" y="786" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1491" y="1169" />
+              <mxPoint x="1265" y="1169" />
+              <mxPoint x="1265" y="851" />
+              <mxPoint x="1160" y="851" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1rHye4AVxo-PGMUvoJVq-34" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g0dUaNiGtpUNUDLyV6Ch-10" target="uLHPd-WeLsKuOtU__SRb-15">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="386" y="869" as="sourcePoint" />
-            <mxPoint x="546" y="869" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7JnjimEteklTVl5KDzVy-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Gestao&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- usuarios: List&amp;lt;Usuario&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- cursos: List&amp;lt;Curso&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ gerenciarCurso(): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ gerenciarUsuario(): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ gerenciarConteudo():void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getUsuarios(): List&amp;lt;Usuario&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ acessarrUsuario(cpf: String)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ getCursos(): List&amp;lt;Curso&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ acessarCurso(curso_id): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1245" y="664" width="185" height="192" as="geometry" />
-        </mxCell>
-        <mxCell id="1rHye4AVxo-PGMUvoJVq-45" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="632" y="1420" width="25" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="1rHye4AVxo-PGMUvoJVq-47" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="370" y="1422" width="36" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="2bIF035ZwMbnVyKAeLHf-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uLHPd-WeLsKuOtU__SRb-10" target="uLHPd-WeLsKuOtU__SRb-15">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="965.085" y="698.075" as="sourcePoint" />
-            <mxPoint x="1048" y="703" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7JnjimEteklTVl5KDzVy-3" value="tem" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="2bIF035ZwMbnVyKAeLHf-6">
+        <mxCell id="7JnjimEteklTVl5KDzVy-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;tem&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="2bIF035ZwMbnVyKAeLHf-6">
           <mxGeometry x="0.0427" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2bIF035ZwMbnVyKAeLHf-8" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="754" y="1271" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2bIF035ZwMbnVyKAeLHf-9" value="1..*" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="754" y="883" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rBhNsJNBUn5vqU64XfGX-0" value="" style="endArrow=none;html=1;rounded=0;exitX=1.014;exitY=0.131;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uLHPd-WeLsKuOtU__SRb-10" target="7JnjimEteklTVl5KDzVy-1">
+        <mxCell id="rBhNsJNBUn5vqU64XfGX-0" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JPh94bo6P3sdSknB1-wR-2" target="7JnjimEteklTVl5KDzVy-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="934" y="1170" as="sourcePoint" />
-            <mxPoint x="984" y="1120" as="targetPoint" />
+            <mxPoint x="1436.0380000000002" y="1585.907" as="sourcePoint" />
+            <mxPoint x="1542" y="1368" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1800" y="1169" />
+              <mxPoint x="2215" y="1169" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rBhNsJNBUn5vqU64XfGX-1" value="gerencia" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1061" y="1067" width="64" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="rBhNsJNBUn5vqU64XfGX-2" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1295" y="854" width="25" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="rBhNsJNBUn5vqU64XfGX-3" value="1..&lt;span style=&quot;background-color: initial;&quot;&gt;*&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="887" y="1314" width="36" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="7JnjimEteklTVl5KDzVy-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Administrador&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1260" y="426" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="7JnjimEteklTVl5KDzVy-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7JnjimEteklTVl5KDzVy-1" target="7JnjimEteklTVl5KDzVy-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1279" y="624" as="sourcePoint" />
-            <mxPoint x="1329" y="574" as="targetPoint" />
+        <mxCell id="JPh94bo6P3sdSknB1-wR-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;gerencia&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rBhNsJNBUn5vqU64XfGX-0">
+          <mxGeometry x="-0.0648" y="4" relative="1" as="geometry">
+            <mxPoint x="64" y="-117" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rBhNsJNBUn5vqU64XfGX-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Mensagem&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- mensagem_id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- conteudo: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- data_postagem: Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- data_edicao: Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- remetente_id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- destinatario_id: int&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ mandarMensagem(conteudo: String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ editarMensagem(mensagem_id: int, conteudo: String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ excluirMensagem(mensagem_id: int): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1151" y="1680" width="297" height="221" as="geometry" />
+        <mxCell id="rBhNsJNBUn5vqU64XfGX-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Mensagem&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- mensagem_id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- conteudo: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- data_postagem: Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- data_edicao: Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- remetente_id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- destinatario_id: int&amp;nbsp;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Mensagem(destinatario_id: String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ mandarMensagem(conteudo: String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ editarMensagem(mensagem_id: int, conteudo: String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ excluirMensagem(mensagem_id: int): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2186" y="1636" width="347.5" height="204" as="geometry" />
         </mxCell>
-        <mxCell id="rBhNsJNBUn5vqU64XfGX-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0.002;exitY=0.183;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rBhNsJNBUn5vqU64XfGX-4" target="uLHPd-WeLsKuOtU__SRb-10">
+        <mxCell id="rBhNsJNBUn5vqU64XfGX-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JPh94bo6P3sdSknB1-wR-27" target="JPh94bo6P3sdSknB1-wR-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1159" y="1487" as="sourcePoint" />
-            <mxPoint x="1209" y="1437" as="targetPoint" />
+            <mxPoint x="1717" y="1735" as="sourcePoint" />
+            <mxPoint x="1433.0000000000002" y="1772.40152404348" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rBhNsJNBUn5vqU64XfGX-6" value="Tem" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="rBhNsJNBUn5vqU64XfGX-5">
+        <mxCell id="rBhNsJNBUn5vqU64XfGX-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;acessa&amp;nbsp;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="rBhNsJNBUn5vqU64XfGX-5">
           <mxGeometry x="-0.1319" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rBhNsJNBUn5vqU64XfGX-7" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="872" y="1499" width="25" height="26" as="geometry" />
+        <mxCell id="rBhNsJNBUn5vqU64XfGX-8" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2242.5" y="1383" width="36" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="rBhNsJNBUn5vqU64XfGX-8" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1115" y="1673" width="36" height="26" as="geometry" />
+        <mxCell id="JPh94bo6P3sdSknB1-wR-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.002;entryY=0.022;entryDx=0;entryDy=0;exitX=1.002;exitY=0.817;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g0dUaNiGtpUNUDLyV6Ch-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1114.14" y="1355" as="sourcePoint" />
+            <mxPoint x="1414.0020000000002" y="1356.2848544600938" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-7" value="&amp;nbsp;&lt;font style=&quot;font-size: 14px;&quot;&gt;possui&amp;nbsp;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JPh94bo6P3sdSknB1-wR-6">
+          <mxGeometry x="0.0313" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-12" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1123" y="1331" width="36" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-13" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1134" y="1782" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uLHPd-WeLsKuOtU__SRb-15" target="uLHPd-WeLsKuOtU__SRb-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2040" y="1439" as="sourcePoint" />
+            <mxPoint x="2090" y="1389" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1606" y="734" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;pertence&amp;nbsp;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JPh94bo6P3sdSknB1-wR-16">
+          <mxGeometry x="0.0911" y="-1" relative="1" as="geometry">
+            <mxPoint x="-86" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-19" value="Método mandarMensagem() é utilizado para gerenciar problemas de usuários" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1805" y="753" width="275" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;startArrow=oval;startFill=1;strokeColor=#808080;entryX=0.924;entryY=0.166;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.021;exitY=0.874;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7JnjimEteklTVl5KDzVy-1" target="JPh94bo6P3sdSknB1-wR-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2076" y="1029" as="sourcePoint" />
+            <mxPoint x="2338" y="1144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JPh94bo6P3sdSknB1-wR-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2426" y="1171" as="sourcePoint" />
+            <mxPoint x="2412" y="727" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-36" value="acessa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JPh94bo6P3sdSknB1-wR-23">
+          <mxGeometry x="-0.0568" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-27" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Conversa&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- participantes: String[]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- mensagens: List&amp;lt;Mensagem&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Conversa(participantes: String[]): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getMensagens(): List&amp;lt;Mensagem&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ configurarMensagem(): Mensagem&amp;nbsp;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2278.5" y="1340" width="255" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-28" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.636;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JPh94bo6P3sdSknB1-wR-27" target="rBhNsJNBUn5vqU64XfGX-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2320.26" y="1697.94" as="sourcePoint" />
+            <mxPoint x="2366" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-37" value="possui" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JPh94bo6P3sdSknB1-wR-28">
+          <mxGeometry x="-0.0893" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-29" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2369.54" y="1305" width="36" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-30" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2375.04" y="1478" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-31" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2369.54" y="1610" width="36" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tBdCodrpyupjnHiMKDGL-2" value="" style="group" connectable="0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1418" y="889" width="331" height="209" as="geometry" />
+        </mxCell>
+        <mxCell id="uLHPd-WeLsKuOtU__SRb-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Conquista&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- curso_id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- usuario_cpf: String = null&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- nome:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- descricao :&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- classificacao: String = &quot;bronze&quot;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Conquista(nome: String, descricao: String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getNome(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDescricao(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ getClassificacao(): String&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setClassificacao(classificacao: String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="tBdCodrpyupjnHiMKDGL-2">
+          <mxGeometry x="45" width="286" height="209" as="geometry" />
+        </mxCell>
+        <mxCell id="tBdCodrpyupjnHiMKDGL-3" value="" style="group" connectable="0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="594" y="453" width="676" height="373" as="geometry" />
+        </mxCell>
+        <mxCell id="uLHPd-WeLsKuOtU__SRb-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Curso&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- usuario_cpf: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- conquista_id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nome: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nivel_curso: int = 1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- requisitos: String[]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- conteudo: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- licoes: List&amp;lt;Licao&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Curso(nome: String, requisitos: String[], conteudo: String, nome_conquista: String, descricao_conquista: String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getNome(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setNome(nome: String): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getNivelCurso(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setNivelCurso(nivel_curso: int): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ adicionarRequisitos(requisito: String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ removerRequisitos(requisito: String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getConteudo(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setConteudo(conteudo: String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getLicoes(): List&amp;lt;Licao&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="tBdCodrpyupjnHiMKDGL-3">
+          <mxGeometry width="640" height="322.2610294117647" as="geometry" />
+        </mxCell>
+        <mxCell id="1rHye4AVxo-PGMUvoJVq-26" value="1..&lt;span style=&quot;background-color: initial;&quot;&gt;*&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tBdCodrpyupjnHiMKDGL-3">
+          <mxGeometry x="640" y="116.5625" width="36" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2bIF035ZwMbnVyKAeLHf-9" value="1..*" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tBdCodrpyupjnHiMKDGL-3">
+          <mxGeometry x="186" y="325.00367647058823" width="60" height="41.139705882352935" as="geometry" />
+        </mxCell>
+        <mxCell id="1rHye4AVxo-PGMUvoJVq-34" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.231;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tBdCodrpyupjnHiMKDGL-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="189" y="693.03" as="sourcePoint" />
+            <mxPoint x="188.83999999999992" y="320.97198529411753" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tBdCodrpyupjnHiMKDGL-4" value="" style="group" connectable="0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1416" y="1233" width="498" height="511" as="geometry" />
+        </mxCell>
+        <mxCell id="1rHye4AVxo-PGMUvoJVq-45" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tBdCodrpyupjnHiMKDGL-4">
+          <mxGeometry x="15" y="177.53051643192487" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2bIF035ZwMbnVyKAeLHf-8" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tBdCodrpyupjnHiMKDGL-4">
+          <mxGeometry x="32" width="60" height="35.985915492957744" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhNsJNBUn5vqU64XfGX-7" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tBdCodrpyupjnHiMKDGL-4">
+          <mxGeometry x="432" y="361.9958685446009" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Usuario&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- cpf: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nome: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- senha: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nivel_fluencia: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- conversas: List&amp;lt;Conversa&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- conquistas: List&amp;lt;Conquista&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- cursos: List&amp;lt;Curso&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- historico: List&amp;lt;Licao&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Usuario(cpf: String, nome: String, senha: String, nivel_fluencia: String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getNome(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setNome(nome: String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getSenha(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setSenha(senha: String): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getNivelFluencia(): int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setNivelFluencia(nivel: int): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getConquistas(): List&amp;lt;Conquista&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ adicionarConquista(conquista_id: int): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ removerConquista(conquista_id: int): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ adicionarCurso(curso_id): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ removerCurso(curso_id): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getHistorico(): List&amp;lt;Licao&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ verCurso(curso_id: int): Curso&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ verLicao(licao_id: int): Licao&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ realizarExercicio(exercicio_id: int): Exercicio&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ mandarMensagem(destinatario_id: String, conteudo: String): Conversa&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ verMensagens(conversa_id: int): List&amp;lt;Mensagem&amp;gt;&lt;/p&gt;" style="verticalAlign=middle;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="tBdCodrpyupjnHiMKDGL-4">
+          <mxGeometry x="-2" y="30.997323943661975" width="431" height="472.61502347417843" as="geometry" />
+        </mxCell>
+        <mxCell id="1rHye4AVxo-PGMUvoJVq-15" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tBdCodrpyupjnHiMKDGL-4">
+          <mxGeometry x="386" y="0.0003755868544317309" width="36" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rBhNsJNBUn5vqU64XfGX-3" value="1..&lt;span style=&quot;background-color: initial;&quot;&gt;*&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tBdCodrpyupjnHiMKDGL-4">
+          <mxGeometry x="198" y="0.001877934272300763" width="36" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1rHye4AVxo-PGMUvoJVq-16" value="0..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1615" y="1098" width="36" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tBdCodrpyupjnHiMKDGL-5" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.919;entryDx=0;entryDy=0;exitX=0.524;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JPh94bo6P3sdSknB1-wR-2" target="g0dUaNiGtpUNUDLyV6Ch-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1590" y="1802" as="sourcePoint" />
+            <mxPoint x="1135" y="1795.0000000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1640" y="1809" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tBdCodrpyupjnHiMKDGL-14" value="realiza" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="tBdCodrpyupjnHiMKDGL-5">
+          <mxGeometry x="0.0363" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-9" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1387" y="1328" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-14" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1615" y="1738.0022065727699" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tBdCodrpyupjnHiMKDGL-7" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2384" y="727" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tBdCodrpyupjnHiMKDGL-8" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2074" y="607" width="36" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-32" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1124" y="775" width="36" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-33" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1234" y="707" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-34" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1628" y="850" width="25" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JPh94bo6P3sdSknB1-wR-35" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2216" y="726" width="36" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
